@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto-Black, sans-serif;
+    color: white;
+    background: url("bgc.png") 0 0 no-repeat;
+    background-size:100%;
+}
+
+.container:not(header) {
+    height:800px;
+}
+
+header {
+    border-bottom: 1px solid #ffffff;
+    
+    height:90px;
+}
+
+header img {
+    width:175,27px; 
+    height:24px;
+    margin-top:33px;
+    margin-bottom:33px;
+    margin-right: 313.73px; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
