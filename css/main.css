@@ -12,25 +12,25 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ffffff; 
+    align-items: center; 
     height:90px;
 }
 
-header {
-    background: url("img/bgc.png") 0 0 no-repeat;
+.header {
+    background: url("../img/bgc.png") 0 0 no-repeat;
     background-size:100%;
-}
-
-a {
-    text-decoration: none;  
-    color: white;
 }
 
 .menu {
     display: flex;
 }
 
-li:not(:nth-of-type(5)) {
+.border {
+    border-bottom: 1px solid #ffffff;
+    margin-top: -1px;
+    height:1px;
+}
+
+.menu-items:not(:last-child) {
     margin-right: 47px; 
 }
