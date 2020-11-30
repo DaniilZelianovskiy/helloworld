@@ -34,3 +34,67 @@ body {
 .menu-items:not(:last-child) {
     margin-right: 47px; 
 }
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 710px;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.text-logo{
+    font-size: 24px;
+}
+
+.logo-text {
+    margin-top: 184px; 
+    font-size: 64px;
+}
+
+.link-complex {
+    font-size: 14px;
+}
+
+.blue {
+    margin-top: 80px;
+    margin-left: 110px;
+    background: #2378FC;
+    width: 255px;
+    height: 148px;
+}
+
+.red {
+    margin-bottom: 250px;
+    background: #F6404F;
+    width: 255px;
+    height: 175px;
+}
+
+.yellow {
+    margin-left: 110px;
+    margin-bottom: 250px;
+    background: #FFC41E;
+    width: 255px;
+    height: 175px;
+}
+
+.turquoise {
+    margin-top: 80px;
+    background: #30BCC9;
+    width: 255px;
+    height: 148px;
+}
+
+.h3-bashbar {
+    white-space: pre;
+}
+
+.link-block {
+    font-size: 12px;
+    margin-left: 40px;
+}
