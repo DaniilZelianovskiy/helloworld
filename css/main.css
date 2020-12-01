@@ -18,7 +18,11 @@ body {
 
 .header {
     background: url("../img/bgc.png") 0 0 no-repeat;
-    background-size:100%;
+    
+    min-height: 526px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu {
@@ -37,22 +41,47 @@ body {
 
 .bottom {
     display: flex;
-    justify-content: space-between;
-    height: 710px;
+    background-size: contain;
 }
 
 .right {
+    width: 50%;
+    padding-top: 304px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding-bottom: 53px;
+}
+
+.palet {
+    min-height: 148px;
+    min-width: 255px;
+}
+
+.palet:nth-child(even) {
+    margin-left:30px;
+}
+
+.palet:nth-child(1) {
+    margin-bottom:30px;
+}
+
+.palet:nth-child(2) {
+    margin-bottom:30px;
+}
+
+.left {
+    width: 50%;
+    padding-top: 184px;
 }
 
 .text-logo{
     font-size: 24px;
+    padding-right: 150px;
 }
 
 .logo-text {
-    margin-top: 184px; 
     font-size: 64px;
 }
 
@@ -61,30 +90,24 @@ body {
 }
 
 .blue {
-    margin-top: 80px;
-    margin-left: 110px;
     background: #2378FC;
     width: 255px;
     height: 148px;
 }
 
 .red {
-    margin-bottom: 250px;
     background: #F6404F;
     width: 255px;
     height: 175px;
 }
 
 .yellow {
-    margin-left: 110px;
-    margin-bottom: 250px;
     background: #FFC41E;
     width: 255px;
     height: 175px;
 }
 
 .turquoise {
-    margin-top: 80px;
     background: #30BCC9;
     width: 255px;
     height: 148px;
@@ -96,5 +119,6 @@ body {
 
 .link-block {
     font-size: 12px;
-    margin-left: 40px;
+    white-space: pre;
+    padding-left: 40px;
 }
