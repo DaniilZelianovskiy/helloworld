@@ -18,10 +18,11 @@ body {
 
 .header {
     background: url("../img/bgc.png") 0 0 no-repeat;
-    
+    background-size: cover;
     min-height: 526px;
     max-height: 800px;
     display: flex;
+    height:100vh;
     flex-direction: column;
 }
 
@@ -41,7 +42,15 @@ body {
 
 .bottom {
     display: flex;
-    background-size: contain;
+    height: 86%;
+}
+
+.text-palet-2 {
+    padding-right: 40px;
+}
+
+.text-palet {
+    padding-right: 150px;
 }
 
 .right {
@@ -56,69 +65,54 @@ body {
 
 .palet {
     min-height: 148px;
-    min-width: 255px;
+    width: 255px;
+    padding: 30px;
+    padding: 40 40px;
 }
 
 .palet:nth-child(even) {
     margin-left:30px;
 }
 
-.palet:nth-child(1) {
-    margin-bottom:30px;
-}
-
+.palet:nth-child(1),
 .palet:nth-child(2) {
     margin-bottom:30px;
 }
 
 .left {
     width: 50%;
-    padding-top: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.text-logo{
+.text-logo {
     font-size: 24px;
     padding-right: 150px;
 }
 
 .logo-text {
     font-size: 64px;
-}
-
-.link-complex {
-    font-size: 14px;
+    line-height: 74px;
 }
 
 .blue {
     background: #2378FC;
-    width: 255px;
-    height: 148px;
 }
 
 .red {
     background: #F6404F;
-    width: 255px;
-    height: 175px;
 }
 
 .yellow {
     background: #FFC41E;
-    width: 255px;
-    height: 175px;
 }
 
 .turquoise {
     background: #30BCC9;
-    width: 255px;
-    height: 148px;
 }
 
-.h3-bashbar {
-    white-space: pre;
-}
-
-.link-block {
+.font-size-sm {
     font-size: 12px;
-    white-space: pre;
-    padding-left: 40px;
+    line-height: 14px;
 }
