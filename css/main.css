@@ -45,14 +45,6 @@ body {
     height: 86%;
 }
 
-.text-palet-2 {
-    padding-right: 40px;
-}
-
-.text-palet {
-    padding-right: 150px;
-}
-
 .right {
     width: 50%;
     padding-top: 304px;
@@ -79,6 +71,12 @@ body {
     margin-bottom:30px;
 }
 
+.palet-title {
+display: flex;
+flex-direction: column;
+
+}
+
 .left {
     width: 50%;
     display: flex;
@@ -89,11 +87,13 @@ body {
 .text-logo {
     font-size: 24px;
     padding-right: 150px;
+    margin-bottom: 25px;
 }
 
 .logo-text {
     font-size: 64px;
     line-height: 74px;
+    margin-bottom: 35px;
 }
 
 .blue {
@@ -113,6 +113,29 @@ body {
 }
 
 .font-size-sm {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
+}
+
+.link-block {
+    margin-top: 15px;
+    display: block;
+}
+
+.blue-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue-margin {
+margin-top: 75px;
+}
+
+.font-size-xl {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.margin-blue {
+    margin-bottom: 15px;
 }
